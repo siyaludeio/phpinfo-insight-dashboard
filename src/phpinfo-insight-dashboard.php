@@ -816,6 +816,11 @@ if (!isset($logoBase64)) {
             </div>
             <div class="flex items-center gap-2">
                 <span class="font-semibold">Developed by</span>
+                <a href="https://github.com/iperamuna" target="_blank" rel="noopener noreferrer"
+                   class="font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition">
+                    Indunil Peramuna
+                </a>
+                <span class="font-semibold">at</span>
                 <a href="https://www.siyalude.io" target="_blank" rel="noopener noreferrer"
                    class="flex items-center gap-2 font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition">
                     <?php if (!empty($logoBase64)): ?>
